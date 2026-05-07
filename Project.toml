@@ -1,0 +1,13 @@
+name = "BuildingPlot"
+uuid = "bfbdb1ae-a368-4761-a32b-c6b62bbe136c"
+authors = ["= <pjabardo@ipt.br> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
